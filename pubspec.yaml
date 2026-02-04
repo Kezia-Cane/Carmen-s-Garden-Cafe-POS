@@ -1,0 +1,83 @@
+name: carmen_garden_pos
+description: "Carmen's Garden Cafe - Offline-First Flutter POS System"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State Management
+  flutter_riverpod: ^2.4.9
+  riverpod_annotation: ^2.3.3
+
+  # Navigation
+  go_router: ^13.2.0
+
+  # Database - Local
+  sqflite: ^2.3.2
+  path_provider: ^2.1.2
+  path: ^1.9.0
+
+  # Database - Cloud (temporarily commented - will add via HTTP API)
+  # supabase_flutter: ^2.3.4
+
+  # Networking
+  dio: ^5.4.0
+  connectivity_plus: ^5.0.2
+
+  # Data Classes
+  freezed_annotation: ^2.4.1
+  json_annotation: ^4.8.1
+
+  # Utilities
+  uuid: ^4.3.3
+  intl: ^0.19.0
+  collection: ^1.18.0
+
+  # UI Components (for charts - static only)
+  fl_chart: ^0.66.2
+  image_picker: ^1.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  flutter_launcher_icons: ^0.13.1
+
+  # Code Generation
+  build_runner: ^2.4.8
+  freezed: ^2.4.6
+  json_serializable: ^6.7.1
+  riverpod_generator: ^2.3.9
+  mockito: ^5.4.4
+
+# App icon configuration
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/carmenlogo.png"
+  adaptive_icon_background: "#FFFFFF"
+  adaptive_icon_foreground: "assets/images/carmenlogo.png"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+  # fonts: (will add Epilogue font later)
+  #   - family: Epilogue
+  #     fonts:
+  #       - asset: assets/fonts/Epilogue-Regular.ttf
+  #       - asset: assets/fonts/Epilogue-Medium.ttf
+  #         weight: 500
+  #       - asset: assets/fonts/Epilogue-SemiBold.ttf
+  #         weight: 600
+  #       - asset: assets/fonts/Epilogue-Bold.ttf
+  #         weight: 700
+

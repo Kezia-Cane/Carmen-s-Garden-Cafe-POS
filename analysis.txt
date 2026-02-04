@@ -1,0 +1,77 @@
+Analyzing Carmens Garden Cafe...                                
+
+  error - Expected a method, getter, setter or operator declaration - lib\app.dart:59:3 - expected_executable
+  error - Expected a method, getter, setter or operator declaration - lib\app.dart:59:4 - expected_executable
+  error - Expected a method, getter, setter or operator declaration - lib\app.dart:60:1 - expected_executable
+  error - Unexpected text ';' - lib\app.dart:60:2 - unexpected_token
+   info - Use 'const' with the constructor to improve performance - lib\config\theme.dart:33:20 - prefer_const_constructors
+warning - Unused import: 'package:sqflite/sqflite.dart' - lib\data\datasources\local\menu_dao.dart:2:8 - unused_import
+   info - Use the '??' operator rather than '?:' when testing for 'null' - lib\data\sample_data_seeder.dart:147:20 - prefer_if_null_operators
+warning - The annotation 'JsonKey' can only be used on fields or getters - lib\models\inventory.dart:11:6 - invalid_annotation_target
+warning - The annotation 'JsonKey' can only be used on fields or getters - lib\models\inventory.dart:12:6 - invalid_annotation_target
+warning - The annotation 'JsonKey' can only be used on fields or getters - lib\models\inventory.dart:13:6 - invalid_annotation_target
+warning - The annotation 'JsonKey' can only be used on fields or getters - lib\models\inventory.dart:14:6 - invalid_annotation_target
+warning - The annotation 'JsonKey' can only be used on fields or getters - lib\models\inventory.dart:39:6 - invalid_annotation_target
+warning - The annotation 'JsonKey' can only be used on fields or getters - lib\models\inventory.dart:40:6 - invalid_annotation_target
+warning - The annotation 'JsonKey' can only be used on fields or getters - lib\models\inventory.dart:43:6 - invalid_annotation_target
+warning - The annotation 'JsonKey' can only be used on fields or getters - lib\models\inventory.dart:44:22 - invalid_annotation_target
+warning - The annotation 'JsonSerializable' can only be used on classes - lib\models\order.dart:18:4 - invalid_annotation_target
+warning - The annotation 'JsonKey' can only be used on fields or getters - lib\models\order.dart:21:6 - invalid_annotation_target
+warning - The annotation 'JsonKey' can only be used on fields or getters - lib\models\order.dart:22:6 - invalid_annotation_target
+warning - The annotation 'JsonKey' can only be used on fields or getters - lib\models\order.dart:25:6 - invalid_annotation_target
+warning - The annotation 'JsonKey' can only be used on fields or getters - lib\models\order.dart:26:6 - invalid_annotation_target
+warning - The annotation 'JsonKey' can only be used on fields or getters - lib\models\order.dart:28:6 - invalid_annotation_target
+warning - The annotation 'JsonKey' can only be used on fields or getters - lib\models\order.dart:29:6 - invalid_annotation_target
+warning - The annotation 'JsonKey' can only be used on fields or getters - lib\models\order.dart:30:6 - invalid_annotation_target
+warning - The annotation 'JsonKey' can only be used on fields or getters - lib\models\order.dart:31:22 - invalid_annotation_target
+warning - The annotation 'JsonKey' can only be used on fields or getters - lib\models\order.dart:32:19 - invalid_annotation_target
+warning - The annotation 'JsonKey' can only be used on fields or getters - lib\models\order.dart:43:6 - invalid_annotation_target
+warning - The annotation 'JsonKey' can only be used on fields or getters - lib\models\order.dart:44:6 - invalid_annotation_target
+warning - The annotation 'JsonKey' can only be used on fields or getters - lib\models\order.dart:55:6 - invalid_annotation_target
+warning - The annotation 'JsonKey' can only be used on fields or getters - lib\models\order.dart:56:6 - invalid_annotation_target
+warning - The annotation 'JsonKey' can only be used on fields or getters - lib\models\order.dart:59:6 - invalid_annotation_target
+warning - The annotation 'JsonKey' can only be used on fields or getters - lib\models\order.dart:60:6 - invalid_annotation_target
+warning - The annotation 'JsonKey' can only be used on fields or getters - lib\models\order.dart:62:6 - invalid_annotation_target
+warning - The annotation 'JsonKey' can only be used on fields or getters - lib\models\order.dart:63:6 - invalid_annotation_target
+warning - The annotation 'JsonKey' can only be used on fields or getters - lib\models\payment.dart:17:6 - invalid_annotation_target
+warning - The annotation 'JsonKey' can only be used on fields or getters - lib\models\payment.dart:18:6 - invalid_annotation_target
+warning - The annotation 'JsonKey' can only be used on fields or getters - lib\models\payment.dart:19:6 - invalid_annotation_target
+warning - The annotation 'JsonKey' can only be used on fields or getters - lib\models\payment.dart:20:6 - invalid_annotation_target
+warning - The annotation 'JsonKey' can only be used on fields or getters - lib\models\payment.dart:21:6 - invalid_annotation_target
+warning - The annotation 'JsonKey' can only be used on fields or getters - lib\models\payment.dart:22:6 - invalid_annotation_target
+warning - The annotation 'JsonKey' can only be used on fields or getters - lib\models\payment.dart:23:22 - invalid_annotation_target
+warning - Unused import: '../services/activity_log_service.dart' - lib\services\order_service.dart:7:8 - unused_import
+  error - The name 'SyncStatus' is defined in the libraries 'package:carmen_garden_pos/services/reports_service.dart' and 'package:carmen_garden_pos/services/sync_service.dart' - lib\services\services.dart:10:8 - ambiguous_export
+  error - Undefined name 'OrderItem' - lib\services\sync_service.dart:400:27 - undefined_identifier
+  error - Undefined name 'Order' - lib\services\sync_service.dart:404:25 - undefined_identifier
+   info - Don't invoke 'print' in production code - lib\services\sync_service.dart:412:11 - avoid_print
+warning - Unused import: 'package:intl/intl.dart' - lib\ui\screens\checkout\checkout_screen.dart:3:8 - unused_import
+   info - Use 'const' with the constructor to improve performance - lib\ui\screens\checkout\checkout_screen.dart:179:25 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\ui\screens\checkout\checkout_screen.dart:180:21 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\ui\screens\checkout\checkout_screen.dart:217:19 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\ui\screens\checkout\checkout_screen.dart:236:26 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\ui\screens\checkout\checkout_screen.dart:517:18 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\ui\screens\checkout\checkout_screen.dart:533:22 - prefer_const_constructors
+   info - Unnecessary 'const' keyword - lib\ui\screens\checkout\checkout_screen.dart:571:28 - unnecessary_const
+   info - Use 'const' with the constructor to improve performance - lib\ui\screens\inventory\inventory_screen.dart:327:30 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\ui\screens\order_success\order_success_screen.dart:38:24 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\ui\screens\order_success\order_success_screen.dart:89:30 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\ui\screens\order_success\order_success_screen.dart:138:25 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\ui\screens\order_success\order_success_screen.dart:139:26 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\ui\screens\order_success\order_success_screen.dart:141:28 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\ui\screens\order_success\order_success_screen.dart:149:27 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\ui\screens\orders\orders_screen.dart:221:26 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\ui\screens\pos\pos_screen.dart:271:37 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\ui\screens\pos\pos_screen.dart:382:14 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\ui\screens\pos\pos_screen.dart:566:30 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\ui\screens\reports\reports_screen.dart:426:11 - prefer_const_constructors
+   info - Use 'const' literals as arguments to constructors of '@immutable' classes - lib\ui\screens\reports\reports_screen.dart:427:23 - prefer_const_literals_to_create_immutables
+   info - Use 'const' with the constructor to improve performance - lib\ui\screens\reports\reports_screen.dart:428:15 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\ui\screens\splash\splash_screen.dart:83:28 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\ui\widgets\receipt_card.dart:43:25 - prefer_const_constructors
+warning - Unused import: 'package:carmen_garden_pos/models/menu_item.dart' - test\services\order_service_test.dart:10:8 - unused_import
+   info - Use 'const' with the constructor to improve performance - test\services\order_service_test.dart:36:25 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - test\services\sync_service_test.dart:43:66 - prefer_const_constructors
+warning - Unused import: 'package:carmen_garden_pos/services/cart_service.dart' - test\ui\pos_screen_test.dart:8:8 - unused_import
+   info - The declaration 'createTestWidget' isn't referenced - test\ui\pos_screen_test.dart:27:10 - unused_element
+
